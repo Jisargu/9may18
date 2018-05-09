@@ -25,7 +25,7 @@ function restaurante() {
             this._telefono = telefono;
         }
         mostrarDatos() {
-            alert(this.nombre + '\t' + this.domicilio + '\t' + this.telefono);
+            alert(this.nombre + '\n' + this.domicilio + '\n' + this.telefono);
         }
 
     }//fin clase Restaurante
